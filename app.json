@@ -1,33 +1,39 @@
 {
   "expo": {
-    "name": "GPRN",
-    "slug": "GPRN",
+    "name": "Heart Attack Detector",
+    "slug": "Heart-Attack-Detector",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/appIcon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
+      "resizeMode": "cover",
+      "backgroundColor": "#FFF"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.heshamomar820.HAD"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/appIcon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.heshamomar820.HAD"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "owner": "heshamomar820",
+    "extra": {
+      "eas": {
+        "projectId": "52864625-313f-414d-8766-3ef473838a9a"
+      }
+    },
+    "scheme": "heart-attack-detector"
   }
 }
